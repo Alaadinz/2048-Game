@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+}
+
+.game-tab {
+  background-color: olive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 4px;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 8px;
+  padding: 4px;
+  height: 100px;
+}
+
+.cell {
+  padding: 10px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.cell-2 {
+  background-color: rgb(146, 129, 97);
+}
+
+.cell-4 {
+  background-color: rgb(158, 141, 86);
+}
+
+.cell-8 {
+  background-color: rgb(211, 137, 27);
+}
+
+.cell-16 {
+  background-color: rgb(184, 89, 0);
+}
+
+.cell-32 {
+  background-color: greenyellow;
+}
+
+.cell-64 {
+  background-color: burlywood;
+}
+
+.cell-128 {
+  background-color: goldenrod;
+}
+
+.cell-256 {
+  background-color: rgb(81, 69, 94);
+}
+
+.cell-512 {
+  background-color: rgb(113, 19, 136);
+}
+
+.cell-1024 {
+  background-color: gold;
+}
+
+.cell-2048 {
+  background-color: rgb(241, 9, 9);
+}
